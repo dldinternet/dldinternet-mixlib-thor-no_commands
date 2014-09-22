@@ -1,16 +1,16 @@
 # -*- encoding: utf-8 -*-
 
-require File.expand_path('../lib/dldinternet/mixlib/thor/nocommands/version', __FILE__)
+require File.expand_path('../lib/dldinternet/mixlib/thor/no_commands/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.name          = "dldinternet-mixlib-thor-nocommands"
+  gem.name          = 'dldinternet-mixlib-thor-nocommands'
   gem.version       = Dldinternet::Mixlib::Thor::Nocommands::VERSION
-  gem.summary       = %q{TODO: Summary}
-  gem.description   = %q{TODO: Description}
-  gem.license       = "Apachev2"
-  gem.authors       = ["Christo De Lange"]
-  gem.email         = "rubygems@dldinternet.com"
-  gem.homepage      = "https://rubygems.org/gems/dldinternet-mixlib-thor-nocommands"
+  gem.summary       = %q{Thor no_commands reuse}
+  gem.description   = %q{Thor no_commands reuse}
+  gem.license       = 'Apachev2'
+  gem.authors       = ['Christo De Lange']
+  gem.email         = 'rubygems@dldinternet.com'
+  gem.homepage      = 'https://rubygems.org/gems/dldinternet-mixlib-thor-nocommands'
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
