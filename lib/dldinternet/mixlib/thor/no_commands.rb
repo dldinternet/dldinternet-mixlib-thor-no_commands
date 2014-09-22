@@ -1,4 +1,4 @@
-require 'dldinternet/mixlib/thor/nocommands/version'
+require 'dldinternet/mixlib/thor/no_commands/version'
 require 'thor'
 require 'awesome_print'
 require 'inifile'

@@ -21,4 +21,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rake', '~> 10'
   gem.add_development_dependency 'rubygems-tasks', '~> 0.2'
   gem.add_development_dependency 'thor', '~> 0.19'
+  gem.add_development_dependency 'dldinternet-mixlib-logging', '> 0.1'
 end
