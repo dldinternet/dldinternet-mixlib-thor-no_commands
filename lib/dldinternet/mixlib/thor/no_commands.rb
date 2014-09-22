@@ -65,6 +65,7 @@ module DLDInternet
               ini = ::IniFile.load(@options[:inifile])
               ini['global'].each{ |key,value|
                 @options[key.to_s]=value
+                ENV[key.to_s]=value
               }
               def _expand(k,v,regex,rerun)
                 matches = v.match(regex)
