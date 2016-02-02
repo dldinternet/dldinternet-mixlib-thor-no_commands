@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ['lib']
 
-  gem.add_dependency              'thor'                                #, '~> 0.19'
+  gem.add_runtime_dependency 			'thor', '~> 0.19', '>= 0'
   gem.add_dependency              'awesome_print'                       #, '~> 1.2'
   gem.add_dependency              'colorize'                            #, '~> 0.7.3'
   gem.add_dependency              'dldinternet-mixlib-logging'          , '~> 0.4'
@@ -26,6 +26,4 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'bundler', '~> 1.0'
   gem.add_development_dependency 'rake', '~> 10'
   gem.add_development_dependency 'rubygems-tasks', '~> 0.2'
-  gem.add_development_dependency 'thor', '~> 0.19'
-  gem.add_development_dependency 'dldinternet-mixlib-logging', '> 0.1'
 end
