@@ -20,7 +20,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency 			'thor', '~> 0.19', '>= 0'
   gem.add_dependency              'awesome_print'                       #, '~> 1.2'
   gem.add_dependency              'colorize'                            #, '~> 0.7.3'
-  gem.add_dependency              'dldinternet-mixlib-logging'          , '~> 0.4'
+  gem.add_dependency              'dldinternet-mixlib-logging'          , '~> 0.5'
   gem.add_dependency              'inifile'                             #, '~> '
 
   gem.add_development_dependency 'bundler', '~> 1.0'
