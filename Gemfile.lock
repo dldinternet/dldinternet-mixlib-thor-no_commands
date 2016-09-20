@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    dldinternet-mixlib-thor-nocommands (0.4.1)
+    dldinternet-mixlib-thor-nocommands (0.4.2)
       awesome_print
       colorize (>= 0.8.1, < 0.9)
       dldinternet-mixlib-logging (~> 0.5)
